@@ -1,0 +1,71 @@
+<table>
+	<!--Shield City Swats-->
+    <unit path="units/payday2/characters/ene_shield_3/ene_shield_3" force="false" load="true"/>
+    <unit path="units/payday2/characters/ene_shield_3/ene_shield_3_husk" force="false" load="true"/>
+    <object path="units/payday2/characters/ene_shield_3/ene_shield_3" force="false"/>
+    <model path="units/payday2/characters/ene_shield_3/ene_shield_3" force="false"/>
+    <material_config path="units/payday2/characters/ene_shield_3/ene_shield_3" force="false"/>
+    <material_config path="units/payday2/characters/ene_shield_3/ene_shield_3_contour" force="false"/>
+    <unit path="units/payday2/characters/ene_acc_shield_lights_3/ene_acc_shield_lights_3" force="false" load="true" />
+    <object path="units/payday2/characters/ene_acc_shield_lights_3/ene_acc_shield_lights_3" force="false" />
+    <model path="units/payday2/characters/ene_acc_shield_lights_3/ene_acc_shield_lights_3" force="false" />
+    <material_config path="units/payday2/characters/ene_acc_shield_lights_3/ene_acc_shield_lights_3" force="false" />
+    <texture path="units/payday2/characters/shared_textures/ene_acc_shield_lights_3_df" force="false" />
+	<!--Gensec Phalanx-->
+    <unit path="units/payday2/characters/ene_phalanx_2/ene_phalanx_2" force="false" load="true"/>
+    <unit path="units/payday2/characters/ene_phalanx_2/ene_phalanx_2_husk" force="false" load="true"/>
+    <object path="units/payday2/characters/ene_phalanx_2/ene_phalanx_2" force="false"/>
+    <model path="units/payday2/characters/ene_phalanx_2/ene_phalanx_2" force="false"/>
+    <material_config path="units/payday2/characters/ene_phalanx_2/ene_phalanx_2" force="false"/>
+    <material_config path="units/payday2/characters/ene_phalanx_2/ene_phalanx_2_contour" force="false"/>
+    <unit path="units/payday2/characters/ene_acc_shield_phalanx_2/ene_acc_shield_phalanx_2" force="false" load="true" />
+    <object path="units/payday2/characters/ene_acc_shield_phalanx_2/ene_acc_shield_phalanx_2" force="false" />
+    <model path="units/payday2/characters/ene_acc_shield_phalanx_2/ene_acc_shield_phalanx_2" force="false" />
+    <material_config path="units/payday2/characters/ene_acc_shield_phalanx_2/ene_acc_shield_phalanx_2" force="false" />
+    <texture path="units/payday2/characters/ene_acc_shield_phalanx_2/shield_phalanx_2_df" force="false" />
+    <texture path="units/payday2/characters/ene_acc_shield_phalanx_2/shield_phalanx_2_nm" force="false" />
+	<!--SCAR-H City Swats-->
+    <unit path="units/payday2/characters/ene_city_swat_4/ene_city_swat_4" force="false" load="true"/>
+    <unit path="units/payday2/characters/ene_city_swat_4/ene_city_swat_4_husk" force="false" load="true"/>
+    <object path="units/payday2/characters/ene_city_swat_4/ene_city_swat_4" force="false"/>
+    <model path="units/payday2/characters/ene_city_swat_4/ene_city_swat_4" force="false"/>
+    <material_config path="units/payday2/characters/ene_city_swat_4/ene_city_swat_4" force="false"/>
+    <material_config path="units/payday2/characters/ene_city_swat_4/ene_city_swat_4_contour" force="false"/>
+	<!--Shotgun HRT-->
+	<unit path="units/payday2/characters/ene_fbi_4/ene_fbi_4" force="false" load="true"/>
+    <unit path="units/payday2/characters/ene_fbi_4/ene_fbi_4_husk" force="false" load="true"/>
+	<!--DW Green-->
+    <unit path="units/payday2/characters/ene_bulldozer_5/ene_bulldozer_5" force="false" load="true"/>
+    <unit path="units/payday2/characters/ene_bulldozer_5/ene_bulldozer_5_husk" force="false" load="true"/>
+    <object path="units/payday2/characters/ene_bulldozer_5/ene_bulldozer_5" force="false"/>
+    <model path="units/payday2/characters/ene_bulldozer_5/ene_bulldozer_5" force="false"/>
+    <material_config path="units/payday2/characters/ene_bulldozer_5/ene_bulldozer_5" force="false"/>
+    <material_config path="units/payday2/characters/ene_bulldozer_5/ene_bulldozer_5_contour" force="false"/>
+    <texture path="units/payday2/characters/shared_textures/bulldozer_5_df" force="false"/>
+	<!--DW Black-->
+    <unit path="units/payday2/characters/ene_bulldozer_6/ene_bulldozer_6" force="false" load="true"/>
+    <unit path="units/payday2/characters/ene_bulldozer_6/ene_bulldozer_6_husk" force="false" load="true"/>
+    <object path="units/payday2/characters/ene_bulldozer_6/ene_bulldozer_6" force="false"/>
+    <model path="units/payday2/characters/ene_bulldozer_6/ene_bulldozer_6" force="false"/>
+    <material_config path="units/payday2/characters/ene_bulldozer_6/ene_bulldozer_6" force="false"/>
+    <material_config path="units/payday2/characters/ene_bulldozer_6/ene_bulldozer_6_contour" force="false"/>
+    <texture path="units/payday2/characters/shared_textures/bulldozer_6_df" force="false"/>
+	<!--DW Titan W/ Head-->
+    <unit path="units/payday2/characters/ene_bulldozer_7/ene_bulldozer_7" force="false" load="true"/>
+    <unit path="units/payday2/characters/ene_bulldozer_7/ene_bulldozer_7_husk" force="false" load="true"/>
+    <object path="units/payday2/characters/ene_bulldozer_7/ene_bulldozer_7" force="false"/>
+    <model path="units/payday2/characters/ene_bulldozer_7/ene_bulldozer_7" force="false"/>
+    <material_config path="units/payday2/characters/ene_bulldozer_7/ene_bulldozer_7" force="false"/>
+    <material_config path="units/payday2/characters/ene_bulldozer_7/ene_bulldozer_7_contour" force="false"/>
+	<sequence_manager path="units/payday2/characters/ene_bulldozer_7/ene_bulldozer_7" force="false"/>
+    <texture path="units/payday2/characters/shared_textures/bulldozer_7_df" force="false"/>
+	<!--PDTH Taser-->
+    <unit path="units/payday2/characters/ene_tazer_2/ene_tazer_2" force="false" load="true"/>
+    <unit path="units/payday2/characters/ene_tazer_2/ene_tazer_2_husk" force="false" load="true"/>
+    <object path="units/payday2/characters/ene_tazer_2/ene_tazer_2" force="false"/>
+    <model path="units/payday2/characters/ene_tazer_2/ene_tazer_2" force="false"/>
+    <material_config path="units/payday2/characters/ene_tazer_2/ene_tazer_2" force="false"/>
+    <material_config path="units/payday2/characters/ene_tazer_2/ene_tazer_2_contour" force="false"/>
+    <texture path="units/payday2/characters/shared_textures/taser_body_2_df" force="false"/>
+    <texture path="units/payday2/characters/shared_textures/helmets_heavy_taser_atlas_2_df" force="false"/>
+</table>

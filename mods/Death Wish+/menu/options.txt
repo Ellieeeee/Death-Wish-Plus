@@ -16,14 +16,6 @@
 		},
 		{
 			"type" : "toggle",
-			"id" : "dw_map_toggle_value",
-			"title" : "dw_map_toggle_title",
-			"description" : "dw_map_toggle_desc",
-			"callback" : "DWToggle",
-			"value" : "dw_map_toggle_value",
-		},
-		{
-			"type" : "toggle",
 			"id" : "dw_infinite_toggle_value",
 			"title" : "dw_infinite_toggle_title",
 			"description" : "dw_infinite_toggle_desc",
@@ -32,39 +24,11 @@
 		},
 		{
 			"type" : "toggle",
-			"id" : "dw_bulldozer_toggle_value",
-			"title" : "dw_bulldozer_toggle_title",
-			"description" : "dw_bulldozer_toggle_desc",
-			"callback" : "DWToggle",
-			"value" : "dw_bulldozer_toggle_value",
-		},
-		{
-			"type" : "toggle",
 			"id" : "dw_piercing_toggle_value",
 			"title" : "dw_pierce_toggle_title",
 			"description" : "dw_pierce_toggle_desc",
 			"callback" : "DWToggle",
 			"value" : "dw_piercing_toggle_value",
-		},
-		{
-			"type" : "slider",
-			"id" : "dw_inv_frames_value",
-			"title" : "dw_inv_frames_title",
-			"description" : "dw_inv_frames_desc",
-			"callback" : "DWValue",
-			"value" : "dw_inv_frames_value",
-			"default_value" : 0.15,
-			"max" : 0.35,
-			"min" : 0,
-			"step" : .01,
-		},
-		{
-			"type" : "toggle",
-			"id" : "dw_drill_toggle_value",
-			"title" : "dw_drill_toggle_title",
-			"description" : "dw_drill_toggle_desc",
-			"callback" : "DWToggle",
-			"value" : "dw_drill_toggle_value",
 		}
 	]
 }
