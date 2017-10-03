@@ -1,31 +1,55 @@
 {
 	"name" : "Death Wish+",
-	"description" : "A custom difficulty made in memory of OVERKILL 145+. Cops have better aim, guards detect you faster, and many other various tweaks!",
-	"author" : "Dashie",
-	"contact" : "stolenzombie@hotmail.com",
-	"version" : "3.0",
-	"priority" : 0,
+	"description" : "A custom difficulty made in memory of OVERKILL 145+. Cops have better aim, enemies are more aggressive, and many other various tweaks!",
+	"author" : "Ellie",
+	"contact" : "stolenzombie@hotmail.com OR http://steamcommunity.com/id/3lewd5me/",
+	"version" : "4.9",
+	"priority" : 40,
 	"updates" : [
 		{
-			"revision" : 1,
+			"revision" : 20,
 			"identifier" : "deathwish"
 		}
 	],
+	"persist_scripts" : [
+		{ 
+			"global" : "Hard",
+			"script_path" : "lua/hard.lua" 
+		}
+	],
 	"hooks" : [
-		{ 	"hook_id" : "lib/tweak_data/playertweakdata",
-			"script_path" : "lua/hard.lua"
-		},   
         	{	"hook_id" : "lib/managers/localizationmanager",
-        		"script_path" : "lua/dw+.lua"
-    		},   
+        		"script_path" : "lua/dw.lua"
+    		},        	
+			{	"hook_id": "core/lib/managers/coresequencemanager",
+				"script_path": "lua/menumanager.lua"
+    		},
+        	{	"hook_id" : "lib/units/enemies/spooc/logics/spooclogicattack",
+        		"script_path" : "lua/menumanager.lua"
+    		},
         	{	"hook_id" : "lib/managers/mission/elementmissionend",
         		"script_path" : "lua/message.lua"
     		},
 	       	{	"hook_id" : "lib/tweak_data/groupaitweakdata",
-        		"script_path" : "lua/capn.lua"
+        		"script_path" : "lua/menumanager.lua"
     		},
 	       	{	"hook_id" : "lib/tweak_data/charactertweakdata",
-        		"script_path" : "lua/cops.lua"
-    		}
-	]		
+        		"script_path" : "lua/menumanager.lua"
+    		},
+			{	"hook_id" : "lib/managers/group_ai_states/groupaistatebesiege",
+        		"script_path" : "lua/fade.lua"
+    		},
+			{	"hook_id" : "lib/managers/menumanager",
+				"script_path" : "lua/menumanager.lua"
+			}
+	],
+ 	"libraries" : [
+       {
+        "display_name" : "BeardLib",
+        "identifier" : "beardlib",
+        "optional" : "false"
+       }
+   ]
+}
+		
 }

@@ -1,0 +1,18 @@
+{
+	"dw_options_menu_title" : "Death Wish+",
+	"dw_options_menu_desc"  : "Change options for Death Wish+.",
+	"dw_enemy_toggle_title" : "Enemy Changes",
+	"dw_enemy_toggle_desc" : "Enables or disables the main enemy changes.",
+	"dw_map_toggle_title" : "Map Changes",
+	"dw_map_toggle_desc" : "Enables or disables the main map changes. Can cause desync.",
+	"dw_infinite_toggle_title" : "Infinite Mode",
+	"dw_infinite_toggle_desc" : "Enables infinite assault mode. Also skips anticipation.",
+	"dw_bulldozer_toggle_title" : "Enhanced Bulldozers",
+	"dw_bulldozer_toggle_desc" : "Activates the enhanced bulldozer that runs and cannot be stunned. All players must have this enabled for it to work properly!",
+	"dw_pierce_toggle_title" : "Armor Piercing",
+	"dw_pierce_toggle_desc" : "Allows all enemies to pierce through armor like snipers can. This probably makes the game impossible.",
+	"dw_inv_frames_title" : "Invincibility Frames"
+	"dw_inv_frames_desc" : "Set the amount of invincibility frames you get when shot. Default PD2 DW = 0.35, PDTH 145+ = .15."
+	"dw_drill_toggle_title" : "PDTH Overdrill",
+	"dw_drill_toggle_desc" : "The Original. Requires everybody to have the mod installed with this option, map changes, and enemy changes on in order to work properly!"
+}
