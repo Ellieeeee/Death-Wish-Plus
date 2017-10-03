@@ -1,0 +1,14 @@
+{
+    "dw_options_menu_title" : "Death Wish+",
+    "dw_options_menu_desc"  : "Einstellungen fuer DW+ aendern.",
+    "dw_enemy_toggle_title" : "Hauptaenderungen",
+    "dw_enemy_toggle_desc" : "Die Haupt Sachen an- oder ausstellen. Dies zwingt dich mit DW+ Spielern zu spielen. NEUSTART BENOETIGT.",
+    "dw_baby_toggle_title" : "Host Only-aenderungen",
+    "dw_baby_toggle_desc" : "Aendert nur die KI und Spawns so dass du mit leuten spielen kannst die die Mod nicht haben. Nicht mit Haupt Aenderungen benutzen. NEUSTART BENOETIGT.",
+    "dw_infinite_toggle_title" : "Unendlicher Modus",
+    "dw_infinite_toggle_desc" : "Aktiviert Unendliche Sturmwellen. Ueberspringt auch die Vorbereitungs Phase.",
+    "dw_pierce_toggle_title" : "Armor Piercing",
+    "dw_pierce_toggle_desc" : "Alle Gegner koennen wie Sniper durch Ruestung UND Leben gleichzeitig beschaedigen. Dies macht das Spiel wahrscheinlich unmoeglich.",
+	"dw_frames_toggle_title" : " Keine Unverwundbarkeitsframes",
+	"dw_frames_toggle_desc" : "Setzt den minimalen Schadensinterval auf 0, das heißt es gibt keinen Cooldown um Schaden zu erleiden."
+}

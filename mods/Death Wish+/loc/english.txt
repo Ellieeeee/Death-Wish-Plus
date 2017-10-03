@@ -2,9 +2,13 @@
 	"dw_options_menu_title" : "Death Wish+",
 	"dw_options_menu_desc"  : "Change options for Death Wish+.",
 	"dw_enemy_toggle_title" : "Main Changes",
-	"dw_enemy_toggle_desc" : "Enables or disables the main changes. This will make it so you can only play with other DW+ users.",
+	"dw_enemy_toggle_desc" : "Enables or disables the main changes. This will make it so you can only play with other DW+ users. RESTART REQUIRED.",
+	"dw_baby_toggle_title" : "Host Only Changes",
+	"dw_baby_toggle_desc" : "Changes the AI and Spawns only so you can play with pubs. This option will not lock your matchmaking key. DO NOT USE WITH MAIN CHANGES AT THE SAME TIME OR THE MOD WILL DISABLE ITSELF. RESTART REQUIRED.",
 	"dw_infinite_toggle_title" : "Infinite Mode",
 	"dw_infinite_toggle_desc" : "Enables infinite assault mode. Also skips anticipation.",
 	"dw_pierce_toggle_title" : "Armor Piercing",
-	"dw_pierce_toggle_desc" : "Allows all enemies to pierce through armor like snipers can. This probably makes the game impossible."
+	"dw_pierce_toggle_desc" : "Allows all enemies to pierce through armor like snipers can. This probably makes the game impossible.",
+	"dw_frames_toggle_title" : "No Invincibility Frames",
+	"dw_frames_toggle_desc" : "Sets minimum damage interval to 0, meaning there is no cooldown to taking damage."
 }

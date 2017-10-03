@@ -1,4 +1,9 @@
---only real reason this persist is still here is for other mods auto detecting this one
+--i can't believe someone actually asked for this to be a feature
+if DW.settings.dw_frames_toggle_value == true then
+	tweak_data.player.damage.MIN_DAMAGE_INTERVAL = 0
+end
+
+--try this on one down+, i fucking dare you
 if DW.settings.dw_piercing_toggle_value == true then
 	tweak_data.weapon.r870_npc.armor_piercing = true
 	tweak_data.weapon.m249_npc.armor_piercing = true
@@ -22,5 +27,17 @@ if DW.settings.dw_piercing_toggle_value == true then
 	tweak_data.weapon.asval_smg_npc.armor_piercing = true
 	tweak_data.weapon.sr2_smg_npc.armor_piercing = true
 	tweak_data.weapon.ak47_ass_npc.armor_piercing = true
+end
+
+
+--if you mess with this i will personally slap you
+if DW.settings.dw_enemy_toggle_value then
+	if Global.load_level == true then
+		local difficulty = Global.game_settings and Global.game_settings.difficulty or "normal"
+		local map = Global.level_data.level_id
+		if (DW.settings.dw_enemy_toggle_value and difficulty == "overkill_290" and map == "red2") or (DW.settings.dw_enemy_toggle_value and difficulty == "sm_wish" and map == "red2") then
+			 tweak_data.money_manager.bag_values.gold = 10000 -- https://www.youtube.com/watch?v=ON-7v4qnHP8
+		end
+	end
 end
 Hard = true
