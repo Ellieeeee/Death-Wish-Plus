@@ -1,0 +1,25 @@
+--ASSETS--
+EdisLeado - Texture for Gensec Taser, from 'Yet Another Yellow Taser Mod'.
+Higgue - Texture for the Gensec Phalanx.
+Leon S. - Texture for the Zeal Phalanx.
+
+--CODING--
+Luffy - Help in general
+Snh20 - Intro animation and who knows how many other things.
+ViciousWalrus - Helping with map changes and the map spawns scaling with difficulty.
+
+--TRANSLATIONS--
+Sergent Panda
+Luca
+Floi
+
+--SPECIAL THANKS--
+SC - Helping me pull my head out of my ass and stop making stupid decisions. Stuff in general really.
+b33croft - Showing the mod off on YouTube.
+M0rtifer - Showing the mod off on YouTube.
+Avizzo - Showing the mod off on YouTube.
+D.J. JetTH1576 - Showing the mod off on YouTube.
+NarratingFox - Reviewing the mod on YouTube.
+Anyone else that I may have missed who gave the mod video coverage
+
+Anyone who has played the mod and given feedback, encouraging my lazy ass to update it every once in a while.
