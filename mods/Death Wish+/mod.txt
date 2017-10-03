@@ -1,0 +1,31 @@
+{
+	"name" : "Death Wish+",
+	"description" : "A custom difficulty made in memory of OVERKILL 145+. Cops have better aim, guards detect you faster, and many other various tweaks!",
+	"author" : "Dashie",
+	"contact" : "stolenzombie@hotmail.com",
+	"version" : "3.0",
+	"priority" : 0,
+	"updates" : [
+		{
+			"revision" : 1,
+			"identifier" : "deathwish"
+		}
+	],
+	"hooks" : [
+		{ 	"hook_id" : "lib/tweak_data/playertweakdata",
+			"script_path" : "lua/hard.lua"
+		},   
+        	{	"hook_id" : "lib/managers/localizationmanager",
+        		"script_path" : "lua/dw+.lua"
+    		},   
+        	{	"hook_id" : "lib/managers/mission/elementmissionend",
+        		"script_path" : "lua/message.lua"
+    		},
+	       	{	"hook_id" : "lib/tweak_data/groupaitweakdata",
+        		"script_path" : "lua/capn.lua"
+    		},
+	       	{	"hook_id" : "lib/tweak_data/charactertweakdata",
+        		"script_path" : "lua/cops.lua"
+    		}
+	]		
+}
