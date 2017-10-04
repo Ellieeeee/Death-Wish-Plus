@@ -3,7 +3,7 @@
 	"description" : "A custom difficulty made in memory of OVERKILL 145+.",
 	"author" : "Ellie",
 	"contact" : "",
-	"version" : "5.3.4",
+	"version" : "5.3.5",
 	"blt_version" : 2,
     "image" : "deathwish.png",
     "color" : "255 0 0",
