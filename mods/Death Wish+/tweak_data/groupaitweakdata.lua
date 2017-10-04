@@ -1297,7 +1297,7 @@ if Global.load_level == true then
 			elseif difficulty_index == 8 then
 				self.special_unit_spawn_limits = {
 					tank = 4,
-					tank_hw = 2,
+					tank_hw = 1,
 					taser = 4,
 					spooc = 4,
 					shield = 4,
@@ -3716,7 +3716,7 @@ if Global.load_level == true then
 						},
 						{
 							unit = "titan",
-							freq = 0.10,
+							freq = 0.035,
 							amount_min = 0,
 							amount_max = 1,
 							tactics = self._tactics.tank_rush,

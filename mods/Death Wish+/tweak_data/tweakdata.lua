@@ -10,6 +10,17 @@ local difficulty_index = tweak_data:difficulty_to_index(difficulty)
 	--tweak_data.screen_colors.risk = Color(255, 211, 133, 255) / 255
 	if DW.settings.dw_enemy_toggle_value and difficulty_index > 6 then
 		tweak_data.screen_colors.risk = Color(255, 255, 0, 0) / 255
+		
+	tweak_data.medic = {
+		radius = 400,
+		cooldown = 3,
+		debug_drawing = false,
+		disabled_units = {
+		"phalanx_minion",
+		"tank_hw",
+		"spooc"
+		}
+	}
 	end
 	if DW.settings.dw_enemy_toggle_value or DW.settings.dw_baby_toggle_value then
 		if not DMCWO then

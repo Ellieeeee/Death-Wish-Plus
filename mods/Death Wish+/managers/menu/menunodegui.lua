@@ -23,26 +23,6 @@ if DW.settings.dw_enemy_toggle_value or DW.settings.dw_baby_toggle_value then
 			end
 		end
 	end
-	if not SystemFS:exists("assets/mod_overrides/Death Wish+/add.xml") then
-		local _setup_item_rows_original = MenuNodeGui._setup_item_rows
-		function MenuNodeGui:_setup_item_rows(node, ...)
-			_setup_item_rows_original(self, node, ...)
-			if not Global._friendsonly_warning_shown then
-				Global._friendsonly_warning_shown = true
-				QuickMenu:new(
-					"Death Wish+",
-					"Warning! You do not have the mod overrides installed. The game will crash in all heists if this is not fixed!",
-					{
-						{
-							text = "ok",
-							is_cancel_button = true
-						}
-					},
-					true
-				)
-			end
-		end
-	end
 	if SystemFS:exists("mods/Seamlink Gameplay Overhaul/mod.txt") then
 		local _setup_item_rows_original = MenuNodeGui._setup_item_rows
 		function MenuNodeGui:_setup_item_rows(node, ...)

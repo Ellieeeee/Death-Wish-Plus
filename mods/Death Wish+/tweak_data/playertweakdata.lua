@@ -11,7 +11,11 @@ if DW.settings.dw_enemy_toggle_value then
 		self.suspicion.buildup_mul = 1.4
 		self.damage.BLEED_OT_TIME = 10
 		self.damage.LIVES_INIT = 4
+		if DW.settings.dw_frames_toggle_value == true then
+		self.damage.MIN_DAMAGE_INTERVAL = 0
+		else
 		self.damage.MIN_DAMAGE_INTERVAL = 0.2
+		end
 		self.damage.REVIVE_HEALTH_STEPS = {0.1}
 	end
 	--I SEE EM NOW	
@@ -23,7 +27,11 @@ if DW.settings.dw_enemy_toggle_value then
 		self.suspicion.buildup_mul = 1.5
 		self.damage.BLEED_OT_TIME = 10
 		self.damage.LIVES_INIT = 2
+		if DW.settings.dw_frames_toggle_value == true then
+		self.damage.MIN_DAMAGE_INTERVAL = 0
+		else
 		self.damage.MIN_DAMAGE_INTERVAL = 0.15
+		end
 		self.damage.REVIVE_HEALTH_STEPS = {0.1}
 	end
 end

@@ -2,6 +2,33 @@ if DW.settings.dw_enemy_toggle_value or DW.settings.dw_baby_toggle_value then
 	local old_init = WeaponTweakData.init
 	function WeaponTweakData:init(tweak_data)
 		old_init(self, tweak_data)
+		
+		--rest in tontinos
+		if DW.settings.dw_piercing_toggle_value == true then
+			self.weapon.r870_npc.armor_piercing = true
+			self.weapon.m249_npc.armor_piercing = true
+			self.weapon.scar_npc.armor_piercing = true
+			self.weapon.g36_npc.armor_piercing = true
+			self.weapon.beretta92_npc.armor_piercing = true
+			self.weapon.raging_bull_npc.armor_piercing = true
+			self.weapon.benelli_npc.armor_piercing = true
+			self.weapon.c45_npc.armor_piercing = true
+			self.weapon.m4_npc.armor_piercing = true
+			self.weapon.ak47_npc.armor_piercing = true
+			self.weapon.mossberg_npc.armor_piercing = true
+			self.weapon.mp5_npc.armor_piercing = true
+			self.weapon.mp5_tactical_npc.armor_piercing = true
+			self.weapon.mp9_npc.armor_piercing = true
+			self.weapon.mac11_npc.armor_piercing = true
+			self.weapon.saiga_npc.armor_piercing = true
+			self.weapon.rpk_lmg_npc.armor_piercing = true
+			self.weapon.svd_snp_npc.armor_piercing = true
+			self.weapon.akmsu_smg_npc.armor_piercing = true
+			self.weapon.asval_smg_npc.armor_piercing = true
+			self.weapon.sr2_smg_npc.armor_piercing = true
+			self.weapon.ak47_ass_npc.armor_piercing = true
+		end
+		
 		if DW.settings.dw_enemy_toggle_value or DW.settings.dw_baby_toggle_value then
 			if not DMCWO then
 				--what the fuck is wrong with you overkill
@@ -45,6 +72,7 @@ if DW.settings.dw_enemy_toggle_value then
 		self.ceiling_turret_module.SHIELD_HEALTH_INIT = 350
 		self.ceiling_turret_module.DAMAGE = 3.5
 		self.ceiling_turret_module.CLIP_SIZE = 800
+
 	end
 
 	--zeal team hits just a bit too hard, lets make it more reasonable because 0.15 inv frames yeah?

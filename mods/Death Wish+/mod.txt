@@ -10,16 +10,12 @@
 	"priority" : 42,
 	"updates" : [
 		{
-			"identifier" : "deathwish",
-			"install_dir" : "."
+			"identifier" : "deathwish"
 		}
 	],
-	"persist_scripts" : [
-		{ 
-			"global" : "Hard",
-			"script_path" : "hard.lua" 
-		}
-	],
+	"pre_hooks" : [
+        { "hook_id" : "lib/entry", "script_path" : "Core.lua" }
+    ],
 	"hooks" : [
         	{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "managers/localizationmanager.lua" },
         	{ "hook_id" : "lib/units/enemies/spooc/logics/spooclogicattack", "script_path" : "units/enemies/spooc/logics/spooclogicattack.lua" },

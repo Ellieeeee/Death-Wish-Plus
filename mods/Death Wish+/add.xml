@@ -1,4 +1,4 @@
-<table>
+<table directory="assets">
 	<!--BOSS ITS THE SKULLS-->
     <texture path="guis/textures/pd2/hud_icon_skullbox" force="false" />
     <texture path="guis/textures/pd2/risklevel_deathwishplus_blackscreen" force="false" />

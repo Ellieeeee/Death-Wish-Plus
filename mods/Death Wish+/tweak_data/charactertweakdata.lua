@@ -740,6 +740,7 @@ if Global.load_level == true then
 				self.tank.flammable = true
 				self.tank.crouch_move = false --change this to true if you want the bulldozers to be sneaky and spoopy
 				self.tank.move_speed = self.presets.move_speed.slow
+				self.tank_mini.move_speed = self.presets.move_speed.very_slow
 				self.tank.damage.hurt_severity = self.presets.hurt_severities.no_hurts
 				self.tank_hw.damage.hurt_severity = self.presets.hurt_severities.no_hurts
 				self.tank_hw.HEALTH_INIT = 1500
@@ -748,6 +749,8 @@ if Global.load_level == true then
 				}
 				self.tank_hw.damage.explosion_damage_mul = 0.75
 				self.tank_hw.headshot_dmg_mul = 1.5
+				--why
+				self.tank_hw.ignore_headshot = false
 				
 				--*knocking intensifies*
 				self.phalanx_minion.HEALTH_INIT = 400
@@ -791,7 +794,7 @@ if Global.load_level == true then
 				--wololololololol
 				self.spooc.HEALTH_INIT = 102
 				self.spooc.headshot_dmg_mul = 3.214285714285714
-				self.spooc.spooc_attack_timeout = {0, 0}
+				self.spooc.spooc_attack_timeout = {2, 4}
 				if not Global.game_settings.single_player then
 					self.spooc.can_be_tased = false --git gud lamp
 				end
@@ -885,6 +888,10 @@ if Global.load_level == true then
 							0,
 							0,
 							1
+						},
+						autofire_rounds = {
+							500,
+							700
 						}
 					},
 					{
@@ -896,7 +903,11 @@ if Global.load_level == true then
 							0,
 							0,
 							0,
-							6
+							1
+						},
+						autofire_rounds = {
+							500,
+							600
 						}
 					},
 					{
@@ -907,8 +918,12 @@ if Global.load_level == true then
 						mode = {
 							0,
 							0,
-							2,
-							6
+							0,
+							1
+						},
+						autofire_rounds = {
+							500,
+							500
 						}
 					},
 					{
@@ -919,8 +934,12 @@ if Global.load_level == true then
 						mode = {
 							0,
 							0,
-							2,
-							6
+							0,
+							1
+						},
+						autofire_rounds = {
+							300,
+							500
 						}
 					},
 					{
@@ -931,8 +950,12 @@ if Global.load_level == true then
 						mode = {
 							0,
 							0,
-							2,
-							6
+							0,
+							1
+						},
+						autofire_rounds = {
+							100,
+							200
 						}
 					}
 				}
@@ -2031,6 +2054,8 @@ if Global.load_level == true then
 				}
 				self.tank_hw.damage.explosion_damage_mul = 0.75
 				self.tank_hw.headshot_dmg_mul = 2.5
+				--why
+				self.tank_hw.ignore_headshot = false
 				
 				--*knocking intensifies*
 				self.phalanx_minion.HEALTH_INIT = 500
@@ -2074,7 +2099,7 @@ if Global.load_level == true then
 				--wololololololol
 				self.spooc.HEALTH_INIT = 102
 				self.spooc.headshot_dmg_mul = 3.214285714285714
-				self.spooc.spooc_attack_timeout = {0, 0}
+				self.spooc.spooc_attack_timeout = {1, 3}
 				if not Global.game_settings.single_player then
 					self.spooc.can_be_tased = false --git gud lamp
 				end
@@ -2169,7 +2194,7 @@ if Global.load_level == true then
 				self.tank_mini.weapon.mini.FALLOFF = {
 					{
 						r = 100,
-						acc = {0.85, 0.9},
+						acc = {0.7, 0.9},
 						dmg_mul = 7,
 						recoil = {0.4, 0.7},
 						mode = {
@@ -2177,30 +2202,42 @@ if Global.load_level == true then
 							0,
 							0,
 							1
+						},
+						autofire_rounds = {
+							500,
+							700
 						}
 					},
 					{
 						r = 500,
-						acc = {0.7, 0.8},
+						acc = {0.65, 0.8},
 						dmg_mul = 7,
 						recoil = {0.5, 0.8},
 						mode = {
 							0,
 							0,
 							0,
-							6
+							1
+						},
+						autofire_rounds = {
+							500,
+							600
 						}
 					},
 					{
 						r = 1000,
-						acc = {0.55, 0.7},
+						acc = {0.45, 0.7},
 						dmg_mul = 7,
 						recoil = {1, 1},
 						mode = {
 							0,
 							0,
-							2,
-							6
+							0,
+							1
+						},
+						autofire_rounds = {
+							500,
+							500
 						}
 					},
 					{
@@ -2211,8 +2248,12 @@ if Global.load_level == true then
 						mode = {
 							0,
 							0,
-							2,
-							6
+							0,
+							1
+						},
+						autofire_rounds = {
+							300,
+							500
 						}
 					},
 					{
@@ -2223,8 +2264,12 @@ if Global.load_level == true then
 						mode = {
 							0,
 							0,
-							2,
-							6
+							0,
+							1
+						},
+						autofire_rounds = {
+							100,
+							200
 						}
 					}
 				}
