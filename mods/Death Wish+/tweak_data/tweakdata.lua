@@ -27,8 +27,8 @@ local difficulty_index = tweak_data:difficulty_to_index(difficulty)
 			--what the fuck is wrong with you overkill
 			tweak_data.projectiles.launcher_m203.damage = 34
 			tweak_data.projectiles.launcher_m203.player_damage = 20
-			tweak_data.projectiles.launcher_frag_arbiter.damage = 216
-			tweak_data.projectiles.launcher_frag_arbiter.player_damage = 20
+			tweak_data.projectiles.launcher_frag_arbiter.damage = 21
+			tweak_data.projectiles.launcher_frag_arbiter.player_damage = 12
 			tweak_data.projectiles.launcher_incendiary_arbiter.damage = 3
 			tweak_data.projectiles.launcher_incendiary_arbiter.player_damage = 3
 			tweak_data.projectiles.launcher_frag.damage = 34
